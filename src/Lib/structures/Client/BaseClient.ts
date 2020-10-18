@@ -1,6 +1,6 @@
 import { Client, ClientOptions, Collection } from "discord.js";
 import { BaseHandler } from "./BaseHandler";
-import { Command } from "../../";
+import { Command, Config } from "../../";
 const colors = {
     black: "\u001b[30;1m",
     red: "\u001b[31;1m",
@@ -12,11 +12,13 @@ const colors = {
     white: "\u001b[37;1m",
     reset: "\u001b[0m"
 };
+const types = ["System", "Client", "WebServer"];
 
 export class BaseClient extends Client {
     public token: string;
     public commands: Collection<string, Command> = new Collection();
     public handler = new BaseHandler(this);
+    public Config = Config;
     constructor(token: string, options?: ClientOptions) {
         super(options);
         this.token = token;
@@ -32,7 +34,7 @@ export class BaseClient extends Client {
         super.login(this.token);
     }
 
-    public log(text: string, color: "blue" | "green" | "red" | "yellow" | "magenta" | "cyan" | "white" | "reset" | "black" = "blue") {
-        console.log(colors[color], text, colors.reset);
+    public log(text: string, color: "blue" | "green" | "red" | "yellow" | "magenta" | "cyan" | "white" | "reset" | "black" = "blue", type : 0 | 1 | 2 = 0) {
+        console.log("\x1b[1m", `[${types[type]}]`, colors[color], text, colors.reset);
     }
 }

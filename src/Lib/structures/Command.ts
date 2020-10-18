@@ -1,5 +1,8 @@
-import { ICommandOptions } from "../";
+import { BaseClient, ICommandOptions } from "../";
+import { Message } from "discord.js";
 export class Command {
+    // @ts-ignore
+    public bot: BaseClient;
     public name: string;
     public aliases: string[] = [];
     public category: string = "Main";
@@ -8,4 +11,6 @@ export class Command {
         this.name = name;
         if(options?.aliases) this.aliases = options.aliases;
     }
+
+    public run(message: Message, args: string[]) {}
 }
