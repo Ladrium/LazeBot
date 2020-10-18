@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e40d23ec-14fc-4c4d-b663-913cbf2edf81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lib/structures/extend/Guild.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/structures/extend/GuildMember.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/structures/extend/Message.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/structures/extend/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/database/GuildEntity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/database/GuildEntity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/database/UserEntity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/database/UserEntity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/structures/Client/BaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/structures/Client/BaseClient.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bot/index.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +47,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/config.json&#10;C:/Users/Leonardo/Desktop/Coding/JavaScript/Bots/LazeBot/package-lock.json" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -69,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603012289938</updated>
       <workItem from="1603012290974" duration="3066000" />
-      <workItem from="1603015406061" duration="744000" />
+      <workItem from="1603015406061" duration="831000" />
     </task>
     <servers />
   </component>
