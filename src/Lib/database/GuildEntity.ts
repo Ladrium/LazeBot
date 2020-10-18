@@ -2,10 +2,8 @@ import { BaseEntity, Entity, ObjectID, ObjectIdColumn, PrimaryColumn } from "typ
 
 @Entity("Guild")
 export class GuildEntity extends BaseEntity {
-    @ObjectIdColumn()
-        public _id?: ObjectID;
-    @PrimaryColumn()
-        public gid: string;
+    @ObjectIdColumn() public _id?: ObjectID;
+    @PrimaryColumn() public gid: string;
 
     constructor(g: string) {
         super();

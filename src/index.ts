@@ -13,4 +13,5 @@ import { createConnection } from "typeorm";
    });
 
    const bot = new BaseClient(Config.get("token"));
+   bot.start();
 })()
