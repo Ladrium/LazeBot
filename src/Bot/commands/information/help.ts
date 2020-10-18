@@ -6,6 +6,6 @@ export = class HelpCommand extends Command {
         super("help");
     }
     public run(message: Message, args: string[]) {
-        message.reply("Hello there");
+        message.reply("Hello there! im not helping you for the moment");
     }
 }
