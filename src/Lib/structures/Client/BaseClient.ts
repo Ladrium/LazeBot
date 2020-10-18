@@ -1,5 +1,6 @@
-import { Client, ClientOptions } from "discord.js";
-
+import { Client, ClientOptions, Collection } from "discord.js";
+import { BaseHandler } from "./BaseHandler";
+import { Command } from "../../";
 const colors = {
     black: "\u001b[30;1m",
     red: "\u001b[31;1m",
@@ -14,15 +15,23 @@ const colors = {
 
 export class BaseClient extends Client {
     public token: string;
+    public commands: Collection<string, Command> = new Collection();
+    public handler = new BaseHandler(this);
     constructor(token: string, options?: ClientOptions) {
         super(options);
         this.token = token;
 
     }
+
     public start() {
         this.log("Starting Bot!");
+        this.handler.init({
+            commands: __dirname + "/../../../Bot/commands",
+            events: __dirname + "/../../../Bot/events"
+        });
         super.login(this.token);
     }
+
     public log(text: string, color: "blue" | "green" | "red" | "yellow" | "magenta" | "cyan" | "white" | "reset" | "black" = "blue") {
         console.log(colors[color], text, colors.reset);
     }

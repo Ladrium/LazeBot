@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e40d23ec-14fc-4c4d-b663-913cbf2edf81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bot/index.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="e40d23ec-14fc-4c4d-b663-913cbf2edf81" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +48,7 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -64,6 +62,9 @@
       <updated>1603012289938</updated>
       <workItem from="1603012290974" duration="3066000" />
       <workItem from="1603015406061" duration="831000" />
+      <workItem from="1603025495858" duration="271000" />
+      <workItem from="1603025780438" duration="278000" />
+      <workItem from="1603026074252" duration="1732000" />
     </task>
     <servers />
   </component>
@@ -83,13 +84,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="150" key="#Plugins" timestamp="1603015205300">
+    <state x="614" y="150" key="#Plugins" timestamp="1603025824549">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="614" y="150" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1603015205300" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603015177449">
+    <state x="614" y="150" key="#Plugins/0.0.1920.1080@0.0.1920.1080" timestamp="1603025824549" />
+    <state x="775" y="453" key="#VCS_History_Cache_Settings" timestamp="1603026061155">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603015177449" />
+    <state x="775" y="453" key="#VCS_History_Cache_Settings/0.0.1920.1080@0.0.1920.1080" timestamp="1603026061155" />
+    <state x="491" y="185" key="SettingsEditor" timestamp="1603025634745">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="491" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603025634745" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603026059451">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603026059451" />
   </component>
 </project>
